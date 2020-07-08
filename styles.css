@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbar-alignment{
+  display: flex;
+  width: 100%;
+  height: 42px;
+  padding: 4px 15px 2px;
+  position: fixed;
+  background-color: royalblue;
+  justify-content: space-between;
+
+}
+
+.nav-containers {
+  display: flex;
+  width: 254px;
+  height: 33px;
+  background-color: silver;
+}
