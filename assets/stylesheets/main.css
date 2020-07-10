@@ -72,6 +72,60 @@ html {
 }
 
 /** main content **/
+main {
+  height: 1000px;
+}
 
+.bottom-sticky-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000000101;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(51, 51, 51);
+}
+
+.msg-container {
+  display: inline-flex;
+  margin: auto 0;
+}
+
+.bottom-message {
+  font-weight: lighter;
+  font-size: 15px;
+}
 
 /** footer **/
+.ft-container {
+  width: 1150px;
+  height: 74.33px;
+  margin: 0 auto; 
+  padding: 1px 3% 35px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: solid 1px rgb(241,241,241); 
+}
+
+.copyright-cont {
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: white;
+
+}
+
+.copyright-cont > span {
+  font-size: 0.6875rem;
+  color: rgb(117,117,117);
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.copyright-cont > span:hover {
+  text-decoration: underline;
+} 
+
+
