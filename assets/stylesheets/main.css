@@ -258,7 +258,7 @@ padding: 0px;
 }
 
 .container {
-  max-width: 1295px;
+  max-width: 80.9375rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -266,10 +266,10 @@ padding: 0px;
 .footer-nav {
   display: flex;
   margin: 0 auto;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 5.65rem;
+  padding-right: 5.65rem;
   justify-content: space-between;
-  margin-bottom: 73px;
+  margin-bottom: 4.56rem;
 }
 
 .footer-nav .list-items {
@@ -297,7 +297,7 @@ padding: 0px;
 .expand {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 8px;
+  column-gap: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
