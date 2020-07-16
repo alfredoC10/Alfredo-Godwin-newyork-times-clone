@@ -27,10 +27,10 @@ html {
 /** HEADER **/
 
 .header {
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0;
   overflow: hidden;
-  padding: 0.2rem 1%;
+  padding: 0.3rem 1rem;
   border-bottom: 1px solid #e2e2e2;
   background-color: white;
 }
@@ -44,7 +44,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .ham,
@@ -73,6 +72,7 @@ html {
   font-size: 0.8rem;
   font-weight: bold;
   padding: 0.7rem;
+  margin-left: 0.3rem;
 }
 
 /** MAIN CONTENT **/
@@ -254,6 +254,7 @@ padding: 0px;
 /** FOOTER **/
 
 .footer {
+  bottom: 0;
 }
 
 .container {
@@ -307,14 +308,14 @@ padding: 0px;
 
 .ex {
   padding-left: 10rem;
-  margin-left: 3%;
+  margin-left: 1.3rem;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.75rem
 }
 
 .arrow {
-  margin-left: 6%;
+  margin-left: 2.5rem;
 }
 .arrow-img {
   width: 0.7rem;
