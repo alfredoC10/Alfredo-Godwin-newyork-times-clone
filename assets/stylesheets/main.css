@@ -191,6 +191,42 @@ html {
   text-align: center;
 }
 
+.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-article {
+  width: 37.5rem;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+q {
+  quotes: "'" "'";
+}
+
+.fig-telescope {
+  width: 45rem;
+  margin: 1.67rem auto;
+}
+
+.telescope-pic {
+  width: 100%;
+  text-align: center;
+}
+
+.fig-telescope-info {
+  margin-left: 0;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  margin: 3px 20px 0 0px;
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
+}
 /** FOOTER **/
 
 .footer {
@@ -201,6 +237,8 @@ html {
   width: 80.9375rem;
   max-width: 100%;
   margin: 0 auto;
+  border-top: 1px solid rgb(237,237,237);
+  padding-top: 0.75rem;
 }
 
 .footer-nav {
