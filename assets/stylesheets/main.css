@@ -94,7 +94,7 @@ html {
 
 .fig-space {
   width: 75rem;
-  margin: 0 auto;
+  margin: 0 auto 2.6875rem;
   max-width: 100%;
 }
 
@@ -103,10 +103,25 @@ html {
   text-align: center;
 }
 
+.fig-space-info {
+  font-size: 0.9375rem;
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.copyright {
+  font-size: 0.6875rem;
+  line-height: 16px;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
 .space-cite {
   width: 37.5rem;
   margin: auto;
   max-width: 100%;
+  color: #888;
 }
 
 .cite {
@@ -199,6 +214,7 @@ html {
   width: 100%;
   bottom: 0;
   border-top: 1px solid #000;
+  background-color: #ffffff;
 }
 
 .expand {
