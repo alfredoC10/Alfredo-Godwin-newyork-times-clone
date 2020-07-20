@@ -83,7 +83,8 @@ html {
 }
 
 .space-title {
-  width: 37.5rem;
+  max-width: 37.5rem;
+  width: 100%;
   margin: auto;
   margin-bottom: 1rem;
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
@@ -93,8 +94,8 @@ html {
 }
 
 .fig-space {
-  width: 75rem;
-  max-width: 100%;
+  width: 100%;
+  max-width: 80rem;
   margin: 0 auto 2.6875rem;
 }
 
@@ -120,9 +121,9 @@ html {
 }
 
 .space-cite {
-  width: 37.5rem;
+  max-width: 40rem;
   margin: auto;
-  max-width: 100%;
+  width: 50%;
   color: #888;
 }
 
@@ -194,11 +195,14 @@ html {
 
 .article {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 25% 50% 25%;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 .main-article {
-  width: 37.5rem;
+  /* width: 37.5rem; */
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -212,19 +216,24 @@ q {
 .article-ad {
   display: flex;
   flex-direction: column;
-  width: 37.5rem; /*600px*/
+  max-width: 37.5rem;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
-  font-size: 0.9375rem; /*15px*/
-  line-height: 1.1875rem; /*19px*/
+  font-size: 0.9375rem; 
+  line-height: 1.1875rem;
   text-align: center;
-  margin: 1.5625rem auto; /*25px*/
+  margin: 1.5625rem auto;
 }
 
 .ad-border-top {
   width: 4.5rem; /*72px*/
   margin: 0 auto 1.125rem; /*18px*/
   border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.unlock,
+.create {
+  margin: 0;
 }
 
 .unlock {
