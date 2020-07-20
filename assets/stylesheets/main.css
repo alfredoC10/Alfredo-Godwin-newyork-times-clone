@@ -79,7 +79,7 @@ html {
 /** MAIN CONTENT **/
 
 .space {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .space-title {
@@ -112,10 +112,11 @@ html {
 }
 
 .copyright {
-  font-size: 0.6875rem;
+  font-size: 0.8125rem;
   line-height: 16px;
   line-height: 1rem;
   font-weight: 400;
+  color: #888;
 }
 
 .space-cite {
@@ -207,6 +208,66 @@ q {
   quotes: "'" "'";
 }
 
+/*Unlock more articles*/
+.article-ad {
+  display: flex;
+  flex-direction: column;
+  width: 37.5rem; /*600px*/
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem; /*15px*/
+  line-height: 1.1875rem; /*19px*/
+  text-align: center;
+  margin: 1.5625rem auto; /*25px*/
+}
+
+.ad-border-top {
+  width: 4.5rem; /*72px*/
+  margin: 0 auto 1.125rem; /*18px*/
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.unlock {
+  color: rgb(51,51,51);
+}
+
+.create {
+  color: rgb(50,104,145);
+  cursor: pointer;
+}
+
+.ad-border-bottom {
+  width: 4.5rem; /*72px*/
+  margin: 1.125rem auto 0; /*18px*/
+  border-bottom: 1px solid rgb(204, 204, 204); 
+}
+
+/*The theory of inflation*/
+
+.fig-stanford-video {
+  width: 37.5rem;
+  height: 22.375rem;
+  margin-top: 2.75rem;
+  margin-bottom: 5.6875rem;
+}
+
+.stanford-vid {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.fig-stanford-info {
+  margin-left: 0;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  margin: 3px 20px 0 0px;
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+  width: 82%;
+}
+
 .fig-telescope {
   width: 45rem;
   margin: 1.67rem auto;
@@ -225,8 +286,54 @@ q {
   font-size: 0.9375rem;
   line-height: 1.25rem;
   color: #666;
+  width: 95%;
 }
+
+.aside {
+  display:inline-flex;
+  flex-direction: column;
 }
+
+.aside-label {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+  margin-bottom: 0.9375rem; /*15px;*/
+  padding-bottom: 0.75rem; /*12px;*/
+  font-size: 0.875rem; /*14px;*/
+  line-height: 0.875rem; /*14px;*/
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.editors-picks {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 5px;
+  width: 120px;
+  height: 70px;
+}
+
+.pick1 {
+  
+} 
+.pick1 > img {
+  width: 4.6875rem;
+  float: left;
+}
+
+.pick1 > span {
+  float: right;
+}
+
+.pick2 {
+  background-color: turquoise;
+}
+
+.pick3 {
+  background-color: teal;
+} 
+
 /** FOOTER **/
 
 .footer {
