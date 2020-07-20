@@ -34,6 +34,7 @@ html {
   border-bottom: 1px solid #e2e2e2;
   background-color: white;
   margin-bottom: 5rem;
+  z-index: 2;
 }
 
 .sidenav,
@@ -252,7 +253,72 @@ q {
 }
 
 /*The theory of inflation*/
+.theory-alignment {
+  display: flex;
+  flex-direction: column;
+}
 
+.theo-summary {
+  width: 59.0625rem; /*945px;*/
+  margin: 0 auto 0.625rem;
+}
+
+.theo-summary > h1{
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  margin-bottom: 2px;
+  color: #000;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0.05rem;
+  margin-inline-end: 0.05rem;
+}
+
+.theo-summary > span {
+  font-size: .875rem;
+  line-height: 1.125rem; /*18px;*/
+  font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+  color: #666;
+}
+
+.theory {
+  width: 59.0625rem; /*945px;*/
+  height: 36rem; /*576px;*/
+  margin: 0 auto;
+  
+}
+
+.theory-pic {
+  width: 100%;
+  height: 100%;
+
+}
+
+.grid-theory {
+  display: grid;
+  grid-template-columns: repeat(4, 14.25rem); /*228px);*/
+  column-gap: 0.8rem;
+  font-size: 0.875rem; /*14px;*/
+  line-height: 1.0625rem; /*17px;*/
+}
+
+.grid-theory strong {
+  font-size: 0.6875rem; /*11px*/ 
+  letter-spacing: .045rem;
+}
+
+.grid-one {
+  position: relative;
+  top: -28.125rem; /*-450px;*/
+}
+
+.grid-two {
+  position: relative;
+  top: -20.3125rem; /*-325px;*/
+}
+
+/*Stanford*/
 .fig-stanford-video {
   margin-top: 2.75rem;
   margin-bottom: 2rem;
