@@ -438,13 +438,40 @@ q {
   bottom: 0;
 }
 
-.container {
+.contain {
   width: 80.9375rem;
   max-width: 100%;
   margin: 0 auto;
-  border-top: 1px solid rgb(237,237,237);
   padding-top: 0.75rem;
 }
+
+.b-nav {
+  border-top: 1px solid rgb(237,237,237);
+  border-bottom: 1px solid #000;
+}
+
+.b-nav {
+  padding: 1rem 0;
+}
+
+.bnav-img {}
+
+.bnav-img .home {
+  float: right;
+  vertical-align: baseline;
+}
+
+.nyt-more:after {
+  content: "";
+  display: table;
+  clear: left;
+}
+
+.more-nav {
+  float: left;
+  width: 16.66%;
+}
+
 
 .footer-nav {
   display: flex;
