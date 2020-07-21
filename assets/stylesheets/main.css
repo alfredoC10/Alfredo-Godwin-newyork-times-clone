@@ -253,17 +253,17 @@ q {
 }
 
 /*The theory of inflation*/
-.theory-alignment {
+/* .theory-alignment {
   display: flex;
   flex-direction: column;
-}
+} */
 
-.theo-summary {
+.theory-alignment {
   width: 59.0625rem; /*945px;*/
   margin: 0 auto 0.625rem;
 }
 
-.theo-summary > h1{
+.theo-title{
   font-size: 1.25rem;
   font-weight: 700;
   font-family: nyt-cheltenham,georgia,times new roman,times,serif;
@@ -275,7 +275,7 @@ q {
   margin-inline-end: 0.05rem;
 }
 
-.theo-summary > span {
+.theo-summary{
   font-size: .875rem;
   line-height: 1.125rem; /*18px;*/
   font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
@@ -317,6 +317,17 @@ q {
   position: relative;
   top: -20.3125rem; /*-325px;*/
 }
+
+.theo-bottom-border {
+  width: 3.75rem; /*60px;*/
+  content: '';
+  display: inline-block;
+  height: 0.125rem; /*2px;*/
+  margin: 0 0 0.8125rem; /*13px;*/
+  background-color: #000;
+}
+
+
 
 /*Stanford*/
 .fig-stanford-video {
