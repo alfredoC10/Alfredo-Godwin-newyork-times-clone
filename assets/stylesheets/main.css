@@ -472,6 +472,11 @@ q {
   width: 16.66%;
 }
 
+.title-more {
+  margin: 0;
+  height: 3rem;
+}
+
 
 .footer-nav {
   display: flex;
