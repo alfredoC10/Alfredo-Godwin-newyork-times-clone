@@ -254,7 +254,8 @@ q {
 
 
 .theory-alignment {
-  width: 59.0625rem; /*945px;*/
+  max-width: 59.0625rem; /*945px;*/
+  width: 100%;
   margin: 0.9375rem auto 0.625rem;
 }
 
@@ -280,7 +281,8 @@ q {
 .theory {
   display: flex;
   flex-direction: column;
-  width: 59.0625rem; /*945px;*/
+  max-width: 59.0625rem; /*945px;*/
+  width: 100%;
   height: 36rem; /*576px;*/
   margin: 0 auto;
   
@@ -289,7 +291,6 @@ q {
 .theory-pic {
   width: 100%;
   height: 100%;
-
 }
 
 .grid-theory {
@@ -448,19 +449,23 @@ q {
 }
 
 .b-nav {
-  border-top: 1px solid rgb(237,237,237);
-  border-bottom: 1px solid #000;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .b-nav {
   padding: 1rem 0;
 }
 
-.bnav-img {}
+.bnav-img {
+  margin-bottom: 1rem;
+}
 
 .bnav-img .home {
   float: right;
-  vertical-align: baseline;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #759cc3;
 }
 
 .nyt-more:after {
@@ -476,13 +481,26 @@ q {
 
 .title-more {
   margin: 0;
-  height: 3rem;
+  height: 2rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.lt {
+  height: 1.5rem;
+}
+
+.an {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #000;
 }
 
 
 .footer-nav {
   display: flex;
   margin: 0 auto;
+  padding-top: 1rem;
   padding-left: 5.65rem;
   padding-right: 5.65rem;
   justify-content: space-between;
