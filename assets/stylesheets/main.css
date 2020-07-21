@@ -252,15 +252,10 @@ q {
   border-bottom: 1px solid rgb(204, 204, 204); 
 }
 
-/*The theory of inflation*/
-/* .theory-alignment {
-  display: flex;
-  flex-direction: column;
-} */
 
 .theory-alignment {
   width: 59.0625rem; /*945px;*/
-  margin: 0 auto 0.625rem;
+  margin: 0.9375rem auto 0.625rem;
 }
 
 .theo-title{
@@ -283,6 +278,8 @@ q {
 }
 
 .theory {
+  display: flex;
+  flex-direction: column;
   width: 59.0625rem; /*945px;*/
   height: 36rem; /*576px;*/
   margin: 0 auto;
@@ -325,6 +322,14 @@ q {
   height: 0.125rem; /*2px;*/
   margin: 0 0 0.8125rem; /*13px;*/
   background-color: #000;
+}
+
+.theory-credits {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 0.875rem; /*14px;*/
+  font-weight: 600;
+  color: #333;
 }
 
 
@@ -390,6 +395,8 @@ q {
 .aside {
   display:inline-flex;
   flex-direction: column;
+  margin-left: 4.875rem; /*78px*/;
+  margin-top: 57.5rem;
 }
 
 .aside-label {
@@ -405,32 +412,27 @@ q {
 }
 
 .editors-picks {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  row-gap: 5px;
-  width: 120px;
-  height: 70px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 12.5rem; /*200px;*/
+
 }
 
-.pick1 {
-  
-} 
-.pick1 > img {
-  width: 4.6875rem;
-  float: left;
+.pick {
+  display: flex;  
 }
 
-.pick1 > span {
-  float: right;
+.pick-img {
+  width: 4.6875rem; /*75px*/
+  max-height: 4.6875rem;/*75px*/
+  margin-bottom: 1rem;
 }
 
-.pick2 {
-  background-color: turquoise;
+.pick span {
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-size: 0.875rem; /*14px*/
+  margin-left: 0.625rem; /*10px*/
 }
-
-.pick3 {
-  background-color: teal;
-} 
 
 /** FOOTER **/
 
