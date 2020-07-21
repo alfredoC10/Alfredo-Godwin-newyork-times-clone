@@ -393,6 +393,34 @@ q {
   width: 95%;
 }
 
+.references {
+  font-size: 0.8rem;
+  color: rgb(102, 102, 102);
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
+}
+
+.references a {
+  text-decoration: underline;
+}
+
+.references a:hover {
+  cursor: pointer; 
+}
+
+.comments-button {
+  width: 20.625rem;
+  height: 2rem;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.74rem;
+  background: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+}
+
 .aside {
   display:inline-flex;
   flex-direction: column;
@@ -490,10 +518,24 @@ q {
   height: 1.5rem;
 }
 
+.lt:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .an {
   text-decoration: none;
   font-size: 0.9rem;
   color: #000;
+}
+
+.an svg {
+  width: 0.9rem;
+  margin-right: 0.3125rem;
+}
+
+.an strong {
+  font-size: 1rem;
 }
 
 
