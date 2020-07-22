@@ -419,7 +419,9 @@ q {
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
   color: white;
+  cursor: pointer;
 }
+
 
 .aside {
   display:inline-flex;
@@ -472,8 +474,9 @@ q {
 .contain {
   width: 80.9375rem;
   max-width: 100%;
-  margin: 0 auto;
-  padding-top: 0.75rem;
+  margin: 0.75rem auto;
+  padding-top: 1px;
+  border-top: 2px solid #ebebeb;
 }
 
 .b-nav {
