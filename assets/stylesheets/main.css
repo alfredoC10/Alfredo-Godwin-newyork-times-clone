@@ -503,11 +503,12 @@ q {
 .ep {
   display: grid;
   grid-template-columns: auto auto auto;
+  /* grid-template-rows: auto auto; */
   grid-gap: 2% 2%;
 }
 
 .msa-fig {
-  width: 100%;
+  width: 17rem;
 }
 
 .msa-img {
@@ -529,6 +530,22 @@ q {
   border-top: 1px solid #e2e2e2;
 }
 
+.astro .figcap {
+  font-size: 0.65rem;
+  float: right;
+}
+
+.astro .to {
+  font-size: 1rem;
+}
+
+.astro .too {
+  text-decoration: none;;
+}
+
+.astro .tim {
+  margin: 0;
+}
 
 /** FOOTER **/
 
