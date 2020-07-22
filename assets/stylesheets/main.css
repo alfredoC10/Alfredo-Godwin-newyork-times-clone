@@ -465,6 +465,52 @@ q {
   margin-left: 0.625rem; /*10px*/
 }
 
+.left {
+  float: left;
+}
+
+.astro {
+  width: 68%;
+  margin-right: 2%;
+}
+
+.astro1 {
+  width: 28%;
+  margin-left: 2%;
+}
+
+.astroflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.msa,
+.ep {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2% 2%;
+}
+
+.msa-fig {
+  width: 100%;
+}
+
+.msa-img {
+  width: 100%;
+}
+
+.astro1flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.after:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 /** FOOTER **/
 
 .footer {
