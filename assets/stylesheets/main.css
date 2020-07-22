@@ -503,12 +503,11 @@ q {
 .ep {
   display: grid;
   grid-template-columns: auto auto auto;
-  /* grid-template-rows: auto auto; */
   grid-gap: 2% 2%;
 }
 
-.msa-fig {
-  width: 17rem;
+.ep1 {
+  width: 272px;
 }
 
 .msa-img {
@@ -530,21 +529,32 @@ q {
   border-top: 1px solid #e2e2e2;
 }
 
-.astro .figcap {
+.astronomy .figcap {
   font-size: 0.65rem;
   float: right;
 }
 
-.astro .to {
-  font-size: 1rem;
+.astronomy .to {
+  font-size: 0.9rem;
+  margin: 0;
+  clear: both;
 }
 
-.astro .too {
+.astronomy .too {
   text-decoration: none;;
 }
 
-.astro .tim {
+.astronomy .tim {
   margin: 0;
+}
+
+.h3-txt {
+  font-size: 1rem;
+}
+
+.ast-link {
+  text-decoration: none;
+  color: #000;
 }
 
 /** FOOTER **/
