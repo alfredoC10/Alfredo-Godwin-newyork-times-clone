@@ -51,7 +51,7 @@ html {
 .ham,
 .mag {
   padding: 0.6rem 0.6rem;
-  margin-right: 0.3rem; 
+  margin-right: 0.3rem;
 }
 
 .nyt {
@@ -88,7 +88,7 @@ html {
   width: 100%;
   margin: auto;
   margin-bottom: 1rem;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-style: italic;
   font-weight: 700;
   font-size: 2.5rem;
@@ -109,7 +109,7 @@ html {
   font-size: 0.9375rem;
   margin-right: 0.45rem;
   color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   width: 65%;
 }
 
@@ -157,7 +157,7 @@ html {
 }
 
 .time {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 500;
   color: #333;
   margin-bottom: 1rem;
@@ -170,12 +170,12 @@ html {
 .s-icon {
   width: 0.8rem;
   padding: 0.4rem;
-  background-color: #eeeeee;
+  background-color: #eee;
   border-radius: 50%;
   margin-left: 0.5rem;
 }
 
- .f-less {
+.f-less {
   padding: 0;
   background-color: transparent;
   width: 1.6rem;
@@ -201,12 +201,12 @@ html {
 }
 
 .main-article {
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-/*Unlock more articles*/
+/* Unlock more articles */
 
 .article-ad {
   display: flex;
@@ -214,7 +214,7 @@ html {
   max-width: 37.5rem;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
-  font-size: 0.9375rem; 
+  font-size: 0.9375rem;
   line-height: 1.1875rem;
   text-align: center;
   margin: 1.5625rem auto;
@@ -232,20 +232,19 @@ html {
 }
 
 .unlock {
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
 }
 
 .create {
-  color: rgb(50,104,145);
+  color: rgb(50, 104, 145);
   cursor: pointer;
 }
 
 .ad-border-bottom {
   width: 4.5rem;
   margin: 1.125rem auto 0;
-  border-bottom: 1px solid rgb(204, 204, 204); 
+  border-bottom: 1px solid rgb(204, 204, 204);
 }
-
 
 .theory-alignment {
   max-width: 59.0625rem;
@@ -253,18 +252,18 @@ html {
   margin: 0.9375rem auto 0.625rem;
 }
 
-.theo-title{
+.theo-title {
   font-size: 1.25rem;
   font-weight: 700;
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   margin-bottom: 0.125rem;
   color: #000;
 }
 
-.theo-summary{
+.theo-summary {
   font-size: 0.875rem;
   line-height: 1.125rem;
-  font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
   color: #666;
 }
 
@@ -320,7 +319,7 @@ html {
   color: #333;
 }
 
-/*Stanford*/
+/* Stanford */
 
 .fig-stanford-video {
   margin-top: 2.75rem;
@@ -342,12 +341,12 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
-} 
+  height: 100%;
+}
 
 .fig-stanford-info {
-  margin-left: 0;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  /* margin-left: 0; */
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   margin: 0.65rem 20px 0 0;
   text-align: left;
   font-size: 0.9375rem;
@@ -368,8 +367,8 @@ html {
 }
 
 .fig-telescope-info {
-  margin-left: 0;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  /* margin-left: 0; */
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   margin: 0.1875rem 1.25rem 0 0;
   text-align: left;
   font-size: 0.9375rem;
@@ -388,7 +387,7 @@ html {
 }
 
 .references a:hover {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .comments-button {
@@ -404,7 +403,6 @@ html {
   color: white;
   cursor: pointer;
 }
-
 
 .aside {
   display:inline-flex;
@@ -508,7 +506,7 @@ html {
   flex-direction: column;
 }
 
-.after:after {
+.after::after {
   content: "";
   display: table;
   clear: both;
@@ -521,7 +519,7 @@ html {
 .astronomy .figcap {
   font-size: 0.65rem;
   float: right;
-  color: #999999;
+  color: #999;
   padding: 0.2rem 0;
   margin: 0;
 }
@@ -572,11 +570,12 @@ html {
 .b-nav {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
-}
-
-.b-nav {
   padding: 1rem 0;
 }
+
+/* .b-nav {
+  padding: 1rem 0;
+} */
 
 .bnav-img {
   margin-bottom: 1rem;
@@ -589,7 +588,7 @@ html {
   color: #759cc3;
 }
 
-.nyt-more:after {
+.nyt-more::after {
   content: "";
   display: table;
   clear: left;
@@ -637,13 +636,13 @@ html {
 .dr {
   border-top: 1px solid #000;
   margin: 0.5rem 0;
-  border-color: #E2E2E2;
+  border-color: #e2e2e2;
 }
 
 .bor {
   border-left: 1px solid #000;
   padding-left: 0.9rem;
-  border-color: #E2E2E2;
+  border-color: #e2e2e2;
 }
 
 .an {
@@ -690,7 +689,7 @@ html {
   width: 100%;
   bottom: 0;
   border-top: 1px solid #000;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .expand {
@@ -710,12 +709,13 @@ html {
   margin-left: 1.3rem;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.75rem
+  font-size: 0.75rem;
 }
 
 .arrow {
   margin-left: 2.5rem;
 }
+
 .arrow-img {
   width: 0.7rem;
 }
