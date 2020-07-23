@@ -8,7 +8,7 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML,
-- CSS,
+- CSS, (flex, grid and float properties)
 - Iframe, icons tag (flaticon).
 
 ## Live Demo
