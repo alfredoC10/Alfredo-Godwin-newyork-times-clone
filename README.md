@@ -1,7 +1,14 @@
 # Alfredo-Godwin-newyork-times-clones
 This is the New York Times clone project for Microverse students and immediately is here an explanation in general terms with the purpose of giving access to its understanding. The banners at the top and at the bottom are made with the fixed position property. For the bottom banner, grid display was implemented so each element could have a well distributed space. Talking about the main the main content we placed a 3 column grid to maintain all the text aligned in the middle, in other words, all text is standing at the 2nd column. Embedded images and the embedded video are standing outside this grid with their corresponding alignment properties to make them go into the middle. In the footer sections, the site index for example, or the thumbnails section, we used the float rule to align content. Mostly, we named CSS classes after keywords we found inside the article's content that helped us to identify in which part of it we were. As much as we could, we tried to order the CSS selectors as they were appearing within the HTLM code. Finally, a live demo version can be found later inside this document. 
 
+# Screenshot
+
 ![screenshot](https://github.com/Huemac-Alfredo/Alfredo-Godwin-newyork-times-clone/blob/newyork-branch/assets/logos/project-screenshot.PNG)
+
+# Microverse Exercise Mockup
+
+[link to clone](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+
 
 Additional description about the project and its features.
 
