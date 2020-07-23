@@ -613,14 +613,14 @@ q {
 
 .more-nav {
   float: left;
-  width: 16.66%;
+  width: 16.33%;
 }
 
 .title-more {
   margin: 0;
   height: 2rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
-  /* font-size: 0.9rem; */
 }
 
 
@@ -642,9 +642,20 @@ q {
   cursor: pointer;
 }
 
+.dr {
+  border-top: 1px solid #000;
+  margin: 0.5rem 0;
+  border-color: #E2E2E2;
+}
+
+.bor {
+  border-left: 1px solid #000;
+  padding-left: 0.9rem;
+  border-color: #E2E2E2;
+}
+
 .an {
   text-decoration: none;
-  /* font-size: 0.9rem; */
   color: #000;
 }
 
