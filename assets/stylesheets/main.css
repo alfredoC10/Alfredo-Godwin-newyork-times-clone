@@ -1,12 +1,12 @@
 /*** Project Meta ***/
 
-/* line - 15 general */
+/* line - 13 general */
 
-/* line - 28 header */
+/* line - 29 header */
 
-/* line - 76 main content */
+/* line - 82 main content */
 
-/* line - 225 footer */
+/* line - 567 footer */
 
 /** GENERAL **/
 
@@ -107,7 +107,7 @@ html {
 
 .fig-space-info {
   font-size: 0.9375rem;
-  margin-right: 7px;
+  margin-right: 0.45rem;
   color: #666;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   width: 65%;
@@ -115,7 +115,6 @@ html {
 
 .copyright {
   font-size: 0.8125rem;
-  line-height: 16px;
   line-height: 1rem;
   font-weight: 400;
   color: #888;
@@ -202,17 +201,13 @@ html {
 }
 
 .main-article {
-  /* width: 37.5rem; */
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
 
-q {
-  quotes: "'" "'";
-}
-
 /*Unlock more articles*/
+
 .article-ad {
   display: flex;
   flex-direction: column;
@@ -226,8 +221,8 @@ q {
 }
 
 .ad-border-top {
-  width: 4.5rem; /*72px*/
-  margin: 0 auto 1.125rem; /*18px*/
+  width: 4.5rem;
+  margin: 0 auto 1.125rem;
   border-bottom: 1px solid rgb(204, 204, 204);
 }
 
@@ -246,14 +241,14 @@ q {
 }
 
 .ad-border-bottom {
-  width: 4.5rem; /*72px*/
-  margin: 1.125rem auto 0; /*18px*/
+  width: 4.5rem;
+  margin: 1.125rem auto 0;
   border-bottom: 1px solid rgb(204, 204, 204); 
 }
 
 
 .theory-alignment {
-  max-width: 59.0625rem; /*945px;*/
+  max-width: 59.0625rem;
   width: 100%;
   margin: 0.9375rem auto 0.625rem;
 }
@@ -262,7 +257,7 @@ q {
   font-size: 1.25rem;
   font-weight: 700;
   font-family: nyt-cheltenham,georgia,times new roman,times,serif;
-  margin-bottom: 2px;
+  margin-bottom: 0.125rem;
   color: #000;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -271,8 +266,8 @@ q {
 }
 
 .theo-summary{
-  font-size: .875rem;
-  line-height: 1.125rem; /*18px;*/
+  font-size: 0.875rem;
+  line-height: 1.125rem;
   font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
   color: #666;
 }
@@ -280,11 +275,10 @@ q {
 .theory {
   display: flex;
   flex-direction: column;
-  max-width: 59.0625rem; /*945px;*/
+  max-width: 59.0625rem;
   width: 100%;
-  height: 36rem; /*576px;*/
+  height: 36rem;
   margin: 0 auto;
-  
 }
 
 .theory-pic {
@@ -294,47 +288,46 @@ q {
 
 .grid-theory {
   display: grid;
-  grid-template-columns: repeat(4, 14.25rem); /*228px);*/
+  grid-template-columns: repeat(4, 14.25rem);
   column-gap: 0.8rem;
-  font-size: 0.875rem; /*14px;*/
-  line-height: 1.0625rem; /*17px;*/
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
 }
 
 .grid-theory strong {
-  font-size: 0.6875rem; /*11px*/ 
-  letter-spacing: .045rem;
+  font-size: 0.6875rem;
+  letter-spacing: 0.045rem;
 }
 
 .grid-one {
   position: relative;
-  top: -28.125rem; /*-450px;*/
+  top: -28.125rem;
 }
 
 .grid-two {
   position: relative;
-  top: -20.3125rem; /*-325px;*/
+  top: -20.3125rem;
 }
 
 .theo-bottom-border {
-  width: 3.75rem; /*60px;*/
+  width: 3.75rem;
   content: '';
   display: inline-block;
-  height: 0.125rem; /*2px;*/
-  margin: 0 0 0.8125rem; /*13px;*/
+  height: 0.125rem;
+  margin: 0 0 0.8125rem;
   background-color: #000;
 }
 
 .theory-credits {
   margin-block-start: 0;
   margin-block-end: 0;
-  font-size: 0.875rem; /*14px;*/
+  font-size: 0.875rem;
   font-weight: 600;
   color: #333;
 }
 
-
-
 /*Stanford*/
+
 .fig-stanford-video {
   margin-top: 2.75rem;
   margin-bottom: 2rem;
@@ -346,7 +339,7 @@ q {
   width: 100%;
   position: relative;
   padding-bottom: 54.181%;
-  padding-top: 25px;
+  padding-top: 1.5625rem;
   height: 0;
 }
 
@@ -358,11 +351,10 @@ q {
   height: 100%
 } 
 
-
 .fig-stanford-info {
   margin-left: 0;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  margin: 0.65rem 20px 0 0px;
+  margin: 0.65rem 20px 0 0;
   text-align: left;
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -384,7 +376,7 @@ q {
 .fig-telescope-info {
   margin-left: 0;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  margin: 3px 20px 0 0px;
+  margin: 0.1875rem 1.25rem 0 0;
   text-align: left;
   font-size: 0.9375rem;
   line-height: 1.25rem;
@@ -410,13 +402,13 @@ q {
 .comments-button {
   width: 20.625rem;
   height: 2rem;
-  padding: 0 10px;
+  padding: 0 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.74rem;
   background: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
-  border-radius: 3px;
+  border-radius: 0.1875rem;
   color: white;
   cursor: pointer;
 }
@@ -425,7 +417,7 @@ q {
 .aside {
   display:inline-flex;
   flex-direction: column;
-  margin-left: 4.875rem; /*78px*/;
+  margin-left: 4.875rem;
   margin-top: 57.5rem;
 }
 
@@ -433,19 +425,18 @@ q {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   color: rgb(0, 0, 0);
-  margin-top: 0px;
-  margin-bottom: 0.9375rem; /*15px;*/
-  padding-bottom: 0.75rem; /*12px;*/
-  font-size: 0.875rem; /*14px;*/
-  line-height: 0.875rem; /*14px;*/
+  margin-top: 0;
+  margin-bottom: 0.9375rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .editors-picks {
   display: inline-flex;
   flex-direction: column;
-  width: 12.5rem; /*200px;*/
-
+  width: 12.5rem;
 }
 
 .pick {
@@ -453,15 +444,15 @@ q {
 }
 
 .pick-img {
-  width: 4.6875rem; /*75px*/
-  max-height: 4.6875rem;/*75px*/
+  width: 4.6875rem;
+  max-height: 4.6875rem;
   margin-bottom: 1rem;
 }
 
 .pick span {
   font-family: nyt-cheltenham-small, georgia, "times new roman";
-  font-size: 0.875rem; /*14px*/
-  margin-left: 0.625rem; /*10px*/
+  font-size: 0.875rem;
+  margin-left: 0.625rem;
 }
 
 .astronomy {
@@ -509,7 +500,7 @@ q {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2% 2%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .msa-img {
@@ -581,7 +572,7 @@ q {
   width: 80.9375rem;
   max-width: 100%;
   margin: 0.75rem auto;
-  padding-top: 2px;
+  padding-top: 0.125rem;
   border-top: 2px solid #ebebeb;
 }
 
@@ -622,7 +613,6 @@ q {
   font-size: 0.9rem;
   text-transform: uppercase;
 }
-
 
 .lt1 {
   line-height: 1.5rem;
@@ -667,7 +657,6 @@ q {
 .an strong {
   font-size: 1rem;
 }
-
 
 .footer-nav {
   display: flex;
