@@ -17,11 +17,12 @@ html {
   margin: 0;
   font-size: 100%;
   padding: 0;
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif";
+
+  /* font-family: "nyt-franklin", "helvetica", "arial", "sans-serif"; */
 }
 
 .font {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif";
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 /** HEADER **/
@@ -163,7 +164,6 @@ html {
   margin-bottom: 1rem;
   font-size: 0.8125rem;
   line-height: 1rem;
-  margin-bottom: 0;
   margin-top: 0;
 }
 
@@ -405,7 +405,7 @@ html {
 }
 
 .aside {
-  display:inline-flex;
+  display: inline-flex;
   flex-direction: column;
   margin-left: 4.875rem;
   margin-top: 57.5rem;
@@ -430,7 +430,7 @@ html {
 }
 
 .pick {
-  display: flex;  
+  display: flex;
 }
 
 .pick-img {
@@ -440,7 +440,7 @@ html {
 }
 
 .pick span {
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 0.875rem;
   margin-left: 0.625rem;
 }
@@ -531,12 +531,12 @@ html {
 }
 
 .astronomy .too {
-  text-decoration: none;;
+  text-decoration: none;
 }
 
 .astronomy .tim {
   margin: 0;
-  color: #999999;
+  color: #999;
   font-size: 0.8rem;
   padding: 0.2rem 0;
 }
