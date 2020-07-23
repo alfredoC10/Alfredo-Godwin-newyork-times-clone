@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/Huemac-Alfredo/Alfredo-Godwin-newyork-times-clone/newyork-branch/index.html)
 
 
 ## Getting Started
@@ -40,15 +40,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Godwin Nwachukwu**
 
-- Github: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- Linkedin: [linkedin]()
+- Github: [@Gnwin](https://github.com/Gnwin)
+- Twitter: [@gmarxr](https://twitter.com/gmarxr)
+- Linkedin: [n-gwin](https://linkedin.com/in/n-gwin)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JbirdL86/Youtube-Project/issues).
+Feel free to check the [issues page](https://github.com/Huemac-Alfredo/Alfredo-Godwin-newyork-times-clone/issues).
 
 ## Show your support
 
