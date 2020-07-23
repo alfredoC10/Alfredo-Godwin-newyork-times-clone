@@ -168,7 +168,6 @@ html {
   margin-top: 0;
 }
 
-
 .s-icon {
   width: 0.8rem;
   padding: 0.4rem;
@@ -513,12 +512,12 @@ q {
   margin-bottom: 20px;
 }
 
-/* .ep1 {
-  width: 272px;
-} */
-
 .msa-img {
   width: 100%;
+}
+
+.pad {
+  padding-bottom: 2.5rem;
 }
 
 .astro1flex {
@@ -539,6 +538,8 @@ q {
 .astronomy .figcap {
   font-size: 0.65rem;
   float: right;
+  color: #999999;
+  padding: 0.2rem 0;
 }
 
 .astronomy .to {
@@ -553,6 +554,9 @@ q {
 
 .astronomy .tim {
   margin: 0;
+  color: #999999;
+  font-size: 0.8rem;
+  padding: 0.2rem 0;
 }
 
 .ast-link {
@@ -616,11 +620,21 @@ q {
   margin: 0;
   height: 2rem;
   text-transform: uppercase;
+  /* font-size: 0.9rem; */
+}
+
+
+.lt1 {
+  line-height: 1.5rem;
   font-size: 0.9rem;
 }
 
-.lt {
-  height: 1.5rem;
+.er {
+  font-size: 0.75rem;
+}
+
+.spa {
+  padding-bottom: 0.8rem;
 }
 
 .lt:hover {
@@ -630,7 +644,7 @@ q {
 
 .an {
   text-decoration: none;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   color: #000;
 }
 
