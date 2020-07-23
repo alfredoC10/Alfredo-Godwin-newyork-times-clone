@@ -473,7 +473,13 @@ q {
   float: left;
 }
 
+.right {
+  float: right;
+}
+
 .astro {
+  display: flex;
+  flex-direction: column;
   width: 69%;
   margin-right: 1%;
 }
@@ -504,11 +510,12 @@ q {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2% 2%;
+  margin-bottom: 20px;
 }
 
-.ep1 {
+/* .ep1 {
   width: 272px;
-}
+} */
 
 .msa-img {
   width: 100%;
@@ -548,13 +555,16 @@ q {
   margin: 0;
 }
 
-.h3-txt {
-  font-size: 1rem;
+.ast-link {
+  font-size: 1.187rem;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  text-decoration: none;
+  font-weight: 500;
 }
 
-.ast-link {
-  text-decoration: none;
-  color: #000;
+.ast-link:hover {
+  color: rgb(102, 102, 102);
 }
 
 /** FOOTER **/
