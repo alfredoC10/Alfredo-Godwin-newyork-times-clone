@@ -6,7 +6,7 @@
 
 /* line - 82 main content */
 
-/* line - 567 footer */
+/* line - 559 footer */
 
 /** GENERAL **/
 
@@ -259,10 +259,6 @@ html {
   font-family: nyt-cheltenham,georgia,times new roman,times,serif;
   margin-bottom: 0.125rem;
   color: #000;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0.05rem;
-  margin-inline-end: 0.05rem;
 }
 
 .theo-summary{
@@ -319,8 +315,6 @@ html {
 }
 
 .theory-credits {
-  margin-block-start: 0;
-  margin-block-end: 0;
   font-size: 0.875rem;
   font-weight: 600;
   color: #333;
@@ -387,8 +381,6 @@ html {
 .references {
   font-size: 0.8rem;
   color: rgb(102, 102, 102);
-  margin-block-start: 0;
-  margin-block-end: 1.5rem;
 }
 
 .references a {
@@ -531,6 +523,7 @@ html {
   float: right;
   color: #999999;
   padding: 0.2rem 0;
+  margin: 0;
 }
 
 .astronomy .to {
@@ -621,6 +614,15 @@ html {
 
 .er {
   font-size: 0.75rem;
+}
+
+.padi {
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 0.5rem;
+}
+
+.padii {
+  padding-top: 0.5rem;
 }
 
 .spa {
