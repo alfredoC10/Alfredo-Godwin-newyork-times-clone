@@ -17,8 +17,6 @@ html {
   margin: 0;
   font-size: 100%;
   padding: 0;
-
-  /* font-family: "nyt-franklin", "helvetica", "arial", "sans-serif"; */
 }
 
 .font {
@@ -345,7 +343,6 @@ html {
 }
 
 .fig-stanford-info {
-  /* margin-left: 0; */
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   margin: 0.65rem 20px 0 0;
   text-align: left;
@@ -367,7 +364,6 @@ html {
 }
 
 .fig-telescope-info {
-  /* margin-left: 0; */
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   margin: 0.1875rem 1.25rem 0 0;
   text-align: left;
@@ -572,10 +568,6 @@ html {
   border-bottom: 1px solid #ebebeb;
   padding: 1rem 0;
 }
-
-/* .b-nav {
-  padding: 1rem 0;
-} */
 
 .bnav-img {
   margin-bottom: 1rem;
