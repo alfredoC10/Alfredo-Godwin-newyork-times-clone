@@ -17,7 +17,7 @@ This New York Times clone project was built keeping in mind that the main contan
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Huemac-Alfredo/Alfredo-Godwin-newyork-times-clone/newyork-branch/index.html)
+[Live Demo Link](https://huemac-alfredo.github.io/Alfredo-Godwin-newyork-times-clone/)
 
 ## Authors
 
