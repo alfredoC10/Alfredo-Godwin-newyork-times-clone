@@ -1,5 +1,5 @@
 # Alfredo-Godwin-newyork-times-clones
-This New York Times clone project was built keeping in mind that the main contant alignment and general responsiveness can be set using the grid property as well as flexbox and grid. It can be noticed that we mostly used dimensions in rem's and percentages, in order to have a kind of responsiveness that allows to see most of the site no matter the size of the screen.
+This New York Times clone project was built keeping in mind that the main content alignment and general responsiveness can be set using the grid property as well as flexbox and grid. It can be noticed that we mostly used dimensions in rem's and percentages, in order to have a kind of responsiveness that allows to see most of the site no matter the size of the screen.
 
 # Screenshot
 
